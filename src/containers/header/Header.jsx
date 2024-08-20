@@ -20,10 +20,10 @@ const Header = () => {
           TV & Soundbar Wall Mounting Service
         </h1>
         <p>
-          Experience top-tier TV and soundbar installation with Mountify, Gold
+          Experience top-tier TV and Soundbar installation with Mountify, Gold
           Coast's trusted experts. Our lifetime warranty ensures 100%
           satisfaction, with every job completed to the highest standards. We
-          guarantee a strong frame, premium materials, and precise installation.
+          guarantee a strocoloeyng frame, premium materials, and precise installation.
           Enjoy a safer, more stylish home entertainment setup with our
           commitment to excellence and fast, reliable service.
         </p>
