@@ -1,3 +1,61 @@
 .mountify__header {
-  height: 60vh;
+  display: flex;
+}
+
+.mountify__header-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.mountify__header-contents h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.mountify__header-contents p {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.mountify__header-contents button {
+  font-size: 2rem;
+}
+
+.mountify__header-image {
+  position: relative;
+  width: 45%;
+}
+
+.mount-graphic {
+  position: absolute;
+  height: 140px;
+  width: 400px;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, -50%); /* Move image out of view initially */
+  transition: transform 0.8s ease-in-out;
+}
+
+.tv-graphic {
+  position: absolute;
+  height: 340px;
+  width: 600px;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(150%, -50%); /* Move image out of view initially */
+  transition: transform 1s ease-in-out;
+  box-shadow: 0px 7px 11px 0px #a3a2a2;
+}
+
+.mount-graphic.loaded {
+  transform: translate(-30%, -50%); /* Move image into view */
+}
+
+.tv-graphic.loaded {
+  transform: translate(-38%, -50%); /* Move image into view */
 }
