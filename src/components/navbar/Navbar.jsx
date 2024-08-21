@@ -8,73 +8,35 @@ const Navbar = () => {
 
   return (
     <div className="mountify__navbar">
-      <div className="mountify__navbar-links">
-        <div className="mountify__navbar-links_logo">
-          <img src={logo} />
-        </div>
-
-        <div className="mountify__navbar-links_container">
-          <p>
-            <a href="#home">Home</a>
-          </p>
-          <p>
-            <a href="#services">Services</a>
-          </p>
-          <p>
-            <a href="#aboutus">About Us</a>
-          </p>
-          <p>
-            <a href="#contactus">Contact Us</a>
-          </p>
-          <p>
-            <a href="#testimonials">Testimonials</a>
-          </p>
-          <p>
-            <a href="#faq">FAQ</a>
-          </p>
-        </div>
+      <div className="mountify__navbar-links_logo">
+        <img src={logo} alt="Mountify Logo" />
       </div>
 
-      <div className="mountify__navbar-book_now">
-        <button type="button">Book Now</button>
-      </div>
-
+      {/* MOBILE VERISON - 360x640 & 414x896px */}
       <div className="mountify__navbar-menu">
         {toggleMenu ? (
-          <RiCloseLine
-            color="black"
-            size={32}
-            onClick={() => setToggleMenu(false)}
-          />
+          <RiCloseLine color="black" onClick={() => setToggleMenu(false)} />
         ) : (
-          <RiMenu3Line
-            color="black"
-            size={32}
-            onClick={() => setToggleMenu(true)}
-          />
+          <RiMenu3Line color="black" onClick={() => setToggleMenu(true)} />
         )}
         {toggleMenu && (
           <div className="mountify__navbar-menu_container scale-up-center">
-            <div className="mountify__navbar-menu_container-links">
-              <p>
-                <a href="#home">Home</a>
-              </p>
-              <p>
-                <a href="#wmountify">What is mountify?</a>
-              </p>
-              <p>
-                <a href="#possibility">Open AI</a>
-              </p>
-              <p>
-                <a href="#features">Case Studies</a>
-              </p>
-              <p>
-                <a href="#blog">Library</a>
-              </p>
-            </div>
-            <div className="mountify__navbar-mountify__navbar-book_now">
-              <button type="button">Book Now</button>
-            </div>
+            <p>
+              <a href="#home">Home</a>
+            </p>
+            <p>
+              <a href="#wmountify">Why Us</a>
+            </p>
+            <p>
+              <a href="#features">Projects</a>
+            </p>
+            <p>
+              <a href="#possibility">Testimonials</a>
+            </p>
+            <p>
+              <a href="#blog">Contact</a>
+            </p>
+            <button type="button">Book Now</button>
           </div>
         )}
       </div>
