@@ -9,6 +9,10 @@ body {
   background-color: var(--color-bg);
 }
 
+button {
+  border: none;
+}
+
 a {
   color: unset;
   text-decoration: none;
