@@ -1,0 +1,24 @@
+.projects-container {
+  display: grid;
+  grid-auto-flow: column;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding: 1rem;
+}
+.projects-container::-webkit-scrollbar {
+  display: none;
+}
+
+.project img {
+  scroll-snap-align: start;
+  border-radius: 30px;
+  height: 90vw;
+  width: calc(90vw * 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
