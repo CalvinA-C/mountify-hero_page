@@ -11,8 +11,8 @@
 }
 
 .mountify__navbar-links_logo img {
-  min-width: 10vw;
-  max-width: 20vh;
+  min-width: 35vw;
+  max-width: 18vw;
 }
 
 .mountify__navbar-menu svg {
@@ -38,13 +38,14 @@
   right: 0;
   top: 20px;
   margin-top: 1rem;
-  padding: 1rem 0;
+  padding: 3rem 2rem;
   min-width: 160px;
-  border-radius: 5px;
+  border-radius: 16px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
 }
 .mountify__navbar-menu_container p {
-  font-size: 1rem;
+  font-size: 5.5vw;
   font-weight: bold;
   padding: 4% 1rem;
   color: var(--white-text);

@@ -15,34 +15,42 @@ a {
 }
 
 .gradient__bg {
-  background: -moz-radial-gradient(
-    circle at 12% 17%,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 244, 233, 1) 100%
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    168deg,
+    rgba(255, 255, 255, 0.57) 0%,
+    rgba(233, 224, 187, 1) 100%
   );
 
-  background: -webkit-radial-gradient(
-    circle at 12% 17%,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 244, 233, 1) 100%
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    168deg,
+    rgba(255, 255, 255, 0.57) 0%,
+    rgba(233, 224, 187, 1) 100%
   );
 
-  background: -o-radial-gradient(
-    circle at 12% 17%,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 244, 233, 1) 100%
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    168deg,
+    rgba(255, 255, 255, 0.57) 0%,
+    rgba(233, 224, 187, 1) 100%
   );
 
-  background: -ms-radial-gradient(
-    circle at 12% 17%,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 244, 233, 1) 100%
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9E0BB', endColorstr='#FFFFFF', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    168deg,
+    rgba(255, 255, 255, 0.57) 0%,
+    rgba(233, 224, 187, 1) 100%
   );
 
-  background: radial-gradient(
-    circle at 12% 17%,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 244, 233, 1) 100%
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    168deg,
+    rgba(255, 255, 255, 0.57) 0%,
+    rgba(233, 224, 187, 1) 100%
   );
 }
 

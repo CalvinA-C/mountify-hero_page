@@ -1,0 +1,39 @@
+.mountify__header {
+  padding-bottom: 3.6rem;
+}
+
+.mountify__header--contents {
+  margin-bottom: 6vw;
+}
+.mountify__header--contents h1 {
+  font-weight: 900;
+  font-family: var(--font-family);
+  letter-spacing: -0.1rem;
+  padding-left: 1rem;
+}
+.mountify__header--contents h1 {
+  font-size: 13vw;
+  line-height: 0.9;
+}
+.mountify__header--contents H1:nth-child(2) {
+  padding-top: 1rem;
+}
+
+.mountify__header--visuals {
+  position: relative;
+  height: 50vw;
+}
+.mountify__header--visuals img {
+  position: absolute;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 888;
+}
+.mountify__header--visuals img:nth-child(1) {
+  height: 75%;
+}
+.mountify__header--visuals img:nth-child(2) {
+  box-shadow: 0px 3px 6px 1px #0000006b;
+}
