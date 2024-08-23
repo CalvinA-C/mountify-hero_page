@@ -1,4 +1,64 @@
 .mountify__offer {
-  height: 100vh;
-  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding: 3rem 1rem;
+}
+
+.mountify__offer-title {
+  font-size: calc(1.5rem + 3vw);
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+/*  */
+.offer-item {
+  padding: 1rem 1rem;
+}
+
+.offer-subtitle {
+  font-size: calc(1rem + 2vw);
+}
+
+.offer-description {
+  font-size: calc(0.8rem + 1vw);
+}
+
+.offer-item:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.offer-item:nth-of-type(2) .offer-description {
+  text-align: right;
+}
+/*  */
+/* CTA Container Styling */
+.mountify__offer--cta-container {
+  padding: 1rem;
+  padding-top: 2.5rem;
+  /* text-align: center;  */
+}
+
+.urgency-text {
+  font-size: calc(1rem + 1vw);
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.mountify__offer--cta-button {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 0.4rem;
+  font-size: calc(1rem + 1vw);
+  font-weight: 600;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.mountify__offer--cta-button:hover {
+  background-color: #f0f0f0; /* Light grey on hover */
 }
