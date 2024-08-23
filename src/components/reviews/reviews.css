@@ -1,0 +1,20 @@
+.mountify__reviews {
+  height: 30vh;
+  background-color: rgb(233, 224, 187, 1);
+}
+
+.review {
+  width: 80%;
+  max-height: 70vw;
+  background-color: grey;
+}
+.review-tag {
+  display: flex;
+}
+
+.review-tag h2 {
+  font-size: 1.4rem;
+}
+.review p {
+  font-size: 1.2rem;
+}

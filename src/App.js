@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Header from "./containers/header/Header";
 import Projects from "./components/projects/Projects";
 import Offer from "./containers/offer/Offer";
+import Reviews from "./components/reviews/Reviews";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Projects />
       </div>
       <Offer />
+      <Reviews />
     </>
   );
 };

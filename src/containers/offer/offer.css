@@ -3,11 +3,11 @@
   flex-direction: column;
   background-color: black;
   color: white;
-  padding: 3rem 1rem;
+  padding: 3rem 1.5rem;
 }
 
 .mountify__offer-title {
-  font-size: calc(1.5rem + 3vw);
+  font-size: calc(2.5rem + 4vw);
   font-weight: 900;
   padding-bottom: 1rem;
 }
@@ -17,22 +17,13 @@
 }
 
 .offer-subtitle {
-  font-size: calc(1rem + 2vw);
+  font-size: calc(1.4rem + 2vw);
 }
 
 .offer-description {
   font-size: calc(0.8rem + 1vw);
 }
 
-.offer-item:nth-of-type(2) {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.offer-item:nth-of-type(2) .offer-description {
-  text-align: right;
-}
-/*  */
 /* CTA Container Styling */
 .mountify__offer--cta-container {
   padding: 1rem;
