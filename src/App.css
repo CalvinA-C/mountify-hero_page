@@ -55,6 +55,43 @@ a {
   );
 }
 
+.gradient__bg-secondary {
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(78, 78, 78, 1) 33%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(78, 78, 78, 1) 33%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  background: -o-linear-gradient(
+    180deg,
+    rgba(78, 78, 78, 1) 33%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#4E4E4E', GradientType=1 );
+
+  background: -ms-linear-gradient(
+    180deg,
+    rgba(78, 78, 78, 1) 33%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  background: linear-gradient(
+    180deg,
+    rgba(78, 78, 78, 1) 33%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.curved-in-box {
+  border-top-left-radius: 100px;
+}
+
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;

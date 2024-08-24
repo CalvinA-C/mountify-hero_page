@@ -1,0 +1,35 @@
+.mountify__pain {
+  padding: 1rem;
+}
+
+.mountify__pain-contents {
+  padding: 20px;
+}
+.mountify__pain-content-title {
+  font-size: 12vw;
+  line-height: 1;
+  padding-bottom: 1rem;
+}
+.mountify__pain-content-text {
+  font-size: 5vw;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+
+.mountify__pain-cta-title {
+  font-size: 6vw;
+  font-weight: 700;
+  text-align: center;
+}
+.mountify__pain-cta-button {
+  padding-top: 2rem;
+  text-align: center;
+}
+.mountify__pain-cta-button a {
+  font-size: 4vw;
+  font-weight: 600;
+  padding: 0.8rem 3vw;
+  border-radius: 12px;
+  color: white;
+  background-color: var(--brand-blue);
+}

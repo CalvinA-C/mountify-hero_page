@@ -3,12 +3,21 @@ import "./reviews.css";
 
 const Reviews = () => {
   return (
-    <div className="mountify__reviews">
-      <div className="review">
-        <div className="review-tag">
+    <div className="reviews">
+
+      <div className="review-tag">
+
+        <div className="review-tag-name">
           <h2>Calvin. C - 4/5</h2>
-          <div className="review__stars">* * * * *</div>
         </div>
+
+        <div className="review-tag-stat">
+
+          <div className="review-tag-stat-stars">* * * * *</div>
+          <div className="review-tag-stat-date">12/24</div>
+
+        </div>
+
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
           delectus impedit officia doloremque repellat ullam!

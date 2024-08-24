@@ -7,7 +7,7 @@
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  padding: 10vw 1rem 15vw 1rem;
+  padding: 6vw 1rem 15vw 1rem;
   z-index: 988;
 }
 

@@ -3,9 +3,9 @@
 :root {
   --font-family: "Manrope", sans-serif;
 
-  --gradient-text: black;
-  --gradient-bar: linear-gradient(103.22deg, #ae67ae -13.86%, #ff8a71);
+  --footer-color: #374351;
 
-  --brand-secondary-color: #374351;
   --white-text: white;
+  --black-text: black;
+  --brand-blue: rgb(81, 128, 245, 1);
 }

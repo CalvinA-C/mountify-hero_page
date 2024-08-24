@@ -1,7 +1,6 @@
 .mountify__offer {
   display: flex;
   flex-direction: column;
-  background-color: black;
   color: white;
   padding: 3rem 1.5rem;
 }
@@ -9,6 +8,8 @@
 .mountify__offer-title {
   font-size: calc(2.5rem + 4vw);
   font-weight: 900;
+  line-height: 1;
+  text-align: right;
   padding-bottom: 1rem;
 }
 /*  */
@@ -22,6 +23,8 @@
 
 .offer-description {
   font-size: calc(0.8rem + 1vw);
+  /* padding-left: 6vw; */
+  text-align: right;
 }
 
 /* CTA Container Styling */
@@ -37,17 +40,17 @@
   margin-bottom: 0.5rem;
 }
 
-.mountify__offer--cta-button {
-  display: inline-block;
-  padding: 0.5rem;
+.mountify__offer--cta-button a {
+  font-size: calc(0.8rem + 1vw);
+  font-weight: 400;
+  color: var(--white-color);
   margin-top: 0.4rem;
-  font-size: calc(1rem + 1vw);
-  font-weight: 600;
-  color: black;
-  background-color: white;
-  text-decoration: none;
-  border-radius: 4px;
+  padding-bottom: 1px;
+  border-bottom: 1px solid;
   transition: background-color 0.3s; /* Smooth background color transition */
+}
+.mountify__offer--cta-button {
+  text-align: right;
 }
 
 .mountify__offer--cta-button:hover {
