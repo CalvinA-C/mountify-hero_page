@@ -2,10 +2,10 @@
 
 :root {
   --font-family: "Manrope", sans-serif;
-
+  
   --footer-color: #374351;
+  --brand-blue: rgb(238, 226, 55);
 
   --white-text: white;
-  --black-text: black;
-  --brand-blue: rgb(81, 128, 245, 1);
+  
 }

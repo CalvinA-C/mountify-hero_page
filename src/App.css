@@ -15,6 +15,12 @@ a {
   text-decoration: none;
 }
 
+/* WRAPPING UP OFFER + REVIEWS TOGETHER */
+.wrapping-up {
+  position: relative;
+  background-color: transparent;
+}
+
 .gradient__bg {
   /* ff 3.6+ */
   background: -moz-linear-gradient(
@@ -53,10 +59,11 @@ a {
     rgba(255, 255, 255, 0.57) 0%,
     rgba(233, 224, 187, 1) 100%
   );
+  padding-bottom: 40vh;
 }
 
 .gradient__bg-secondary {
-  background: -moz-linear-gradient(
+  /* background: -moz-linear-gradient(
     180deg,
     rgba(78, 78, 78, 1) 33%,
     rgba(255, 255, 255, 1) 100%
@@ -86,7 +93,8 @@ a {
     180deg,
     rgba(78, 78, 78, 1) 33%,
     rgba(255, 255, 255, 1) 100%
-  );
+  ); */
+  background-color: var(--footer-color);
 }
 .curved-in-box {
   border-top-left-radius: 100px;

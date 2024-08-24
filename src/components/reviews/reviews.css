@@ -1,11 +1,15 @@
 .reviews {
-  width: 80%;
+  position: absolute;
+  bottom: -12vh;
   max-height: 70vw;
-  background-color: white;
+  margin: 0 1rem;
   color: var(--black-text);
+  background-color: white;
 }
 .review-tag {
   padding: 1rem;
+  max-width: 250px;
+  min-width: 25vw;
 }
 
 .review-tag-stat {

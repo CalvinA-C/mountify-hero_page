@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 3rem 1.5rem;
+  padding: 3rem 2rem 8rem 2rem;
 }
 
 .mountify__offer-title {
-  font-size: calc(2.5rem + 4vw);
+  font-size: 12vw;
   font-weight: 900;
   line-height: 1;
   text-align: right;
@@ -29,7 +29,7 @@
 
 /* CTA Container Styling */
 .mountify__offer--cta-container {
-  padding: 1rem;
+  padding: 1rem 0;
   padding-top: 2.5rem;
   /* text-align: center;  */
 }
@@ -42,8 +42,10 @@
 
 .mountify__offer--cta-button a {
   font-size: calc(0.8rem + 1vw);
-  font-weight: 400;
-  color: var(--white-color);
+  font-weight: 800;
+  color: var(--brand-blue);
+  letter-spacing: 1.2px;
+  text-shadow: 0px black;
   margin-top: 0.4rem;
   padding-bottom: 1px;
   border-bottom: 1px solid;
